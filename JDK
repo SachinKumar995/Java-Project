@@ -1,0 +1,23 @@
+Q) How to set jdk path in your Laptop ?
+
+Find the installation directory of Java 17 or higher: This is typically located in the Program Files directory. For example, if you installed Java 17,
+the directory might be something like C:\Program Files\Java\jdk-17.
+
+Open System Properties:
+
+Right-click on "This PC" or "My Computer" and select "Properties".
+Click on "Advanced system settings" on the left-hand side.
+Open Environment Variables:
+
+In the System Properties window, click on the "Environment Variables" button.
+Add or Edit JAVA_HOME:
+
+In the Environment Variables window, under the "System variables" section, click on "New" if JAVA_HOME doesn't exist, or select JAVA_HOME if it exists and click on "Edit".
+Set the Variable name to JAVA_HOME.
+Set the Variable value to the installation path of Java 17 or higher. For example, C:\Program Files\Java\jdk-17.
+Apply Changes:
+
+Click "OK" on all windows to apply the changes.
+Verify the environment variable:
+
+Open Command Prompt and type echo %JAVA_HOME%. It should print the path to your Java installation directory.
