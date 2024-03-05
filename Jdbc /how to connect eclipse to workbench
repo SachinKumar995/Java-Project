@@ -1,0 +1,4 @@
+Q ) how to connect eclipse with workbench ?
+ans-> open eclipse , open workbench create project in java i.e write jdbc code and add jar extention 
+right click on file inside  project exploral -> then goto build path then configure build path then add the jar extension 
+now run the code and you can conncet with the workbench and in this way you can connect with the database.
